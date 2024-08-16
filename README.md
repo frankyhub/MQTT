@@ -41,7 +41,7 @@ Das ist ein PRepo mit einem Raspberry PI und zwei Wemos D1 Mini für die Anzeige
 
 Raspi Programme
 + Node-RED
-MQTT Broker Mosquitto
++ MQTT Broker Mosquitto
 Wemos-Programme
 + Programm 1 für Node 1
 + Programm 2 für Node 2
