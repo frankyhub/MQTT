@@ -34,11 +34,14 @@ Das ist ein PRepo mit einem Raspberry PI und zwei Wemos D1 Mini für die Anzeige
 | 1  |  5V/230V Relais  |
 | ---  | ---   |
 
+
+
+
 ## Software
 
 Raspi Programme
 + Node-RED
-# MQTT Broker Mosquitto
+MQTT Broker Mosquitto
 Wemos-Programme
 + Programm 1 für Node 1
 + Programm 2 für Node 2
@@ -62,14 +65,20 @@ Wemos D1 Mini 2
 + DS18B20-> D2
 + LED -> D6
 
+  ## Verdrahtung
+
+![Bild](pic/wemos2.jpg)
+
+## Linux-Befehle
+
+```Linux
+
 Mosquitto Broker installieren:
 pi@franky:~ $ sudo apt update
 pi@franky:~ $ sudo apt install -y mosquitto mosquitto-clients
 
 
-Linux-Befehle
 
-```Linux
 Node-RED installieren:
 pi@franky:~ $ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
 
