@@ -7,6 +7,9 @@ Message Queuing Telemetry Transport
 
 Das ist ein Repo mit einem Raspberry PI und zwei Wemos D1 Mini für die Anzeige von zwei Dashboards mit MQTT. Auf dem Raspi ist Node-RED und der MQTT Broker Mosquitto installiert. Der erste Wemos D1 Mini ist mit einem BME280 verbunden und zeigt die Temperatur, die Luftfeuchte und den Luftdruck an. Für das zweite Dashboard ist am zweiten Wemos D1 Mini ist ein LDR, ein Bewegungsmelder, eine LED, ein Relais und ein Dallas Temperatursensor installiert. Beide Dashboards werden mit der Node-RED IP-Adresse aufgerufen.
 
+![Bild](pic/ESP1.png)
+
+
 ## Hardware
 
 | Anzahl | Bezeichnung | 
