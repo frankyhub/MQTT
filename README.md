@@ -66,10 +66,13 @@ Mosquitto Broker installieren:
 pi@franky:~ $ sudo apt update
 pi@franky:~ $ sudo apt install -y mosquitto mosquitto-clients
 
+
+Linux-Befehle
+
+```Linux
 Node-RED installieren:
 pi@franky:~ $ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
 
-```linux
 Restart Pi:
 pi@franky:~ $ sudo reboot
 
@@ -86,6 +89,8 @@ http://192.168.1.104:1880/ui
 
 
 ==================================================================
+
+
 Linux-Befehle
 
 Zeige Arbeitsverzeichnis:
