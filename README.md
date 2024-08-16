@@ -63,7 +63,7 @@ Wemos D1 Mini 2
 + LED -> D6
 
 ## Flow 1
-``
+```json
 [
     {
         "id": "2b566407.d5918c",
@@ -264,10 +264,10 @@ Wemos D1 Mini 2
     }
 ]
 
-.``
+```
 
 ## Flow 2
-``
+```json
 [
     {
         "id": "94cf8e9e.4c4dc",
@@ -516,53 +516,53 @@ Wemos D1 Mini 2
         "hidden": false
     }
 ]
-``
+```
 
 Dashboard 1 (Node-RED IP-Adresse/ui)
 
-![Bild](Dashboard1.png)
+![Bild](pic/Dashboard1.png)
 
 Serieller Monitor 1
 
-![Bild](Seriell1.png)
+![Bild](pic/Seriell1.png)
 
 Node-RED Flow 1
 
-![Bild](node-red1.png)
+![Bild](pic/node-red1.png)
 
 Dashboard 2
 
-![Bild](Dashboard2.png)
+![Bild](pic/Dashboard2.png)
 
 Serieller Monitor 2
 
-![Bild](Seriell2.png)
+![Bild](pic/Seriell2.png)
 
 Node-RED Flow 2
 
-![Bild](node-red2.png)
+![Bild](pic/node-red2.png)
 
 Einfache Erweiterung von Node-RED um die Funktion "Licht"
 
-![Bild](node-red3.png)
+![Bild](pic/node-red3.png)
 
 Erweiterung der Funktion "Licht" im Dashboard 2
 
-![Bild](Dashboard4.png)
+![Bild](pic/Dashboard4.png)
 
 Erweiterung von Node-RED um die Funktion "ESP1" (Switch D5 mit Debug-Funktion)
 
-![Bild](node-red4.png)
+![Bild](pic/node-red4.png)
 
 Schalten und dimmen mit dem "ESP1" Dashboard
 
-![Bild](ESP1.png)
+![Bild](pic/ESP1.png)
 
 Erweiterung von Node-RED um die Funktion "LED-STRIPE"
 
-![Bild](led-stripe.png)
+![Bild](pic/led-stripe.png)
 
-![Bild](ledstripe.png)
+![Bild](pic/ledstripe.png)
 
 
 
