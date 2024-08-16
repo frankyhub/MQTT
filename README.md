@@ -67,7 +67,6 @@ Wemos D1 Mini 2
 + DS18B20-> D2
 + LED -> D6
 
-  ## Verdrahtung
 
 ![Bild](pic/wemos2.jpg)
 
