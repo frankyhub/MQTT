@@ -62,6 +62,115 @@ Wemos D1 Mini 2
 + DS18B20-> D2
 + LED -> D6
 
+Mosquitto Broker installieren:
+pi@franky:~ $ sudo apt update
+pi@franky:~ $ sudo apt install -y mosquitto mosquitto-clients
+
+Node-RED installieren:
+pi@franky:~ $ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
+
+```linux
+Restart Pi:
+pi@franky:~ $ sudo reboot
+
+Mosquitto Start:
+pi@franky:~ $ sudo service mosquitto start
+
+Test:
+http://xxx:1880
+z.B:
+http://192.168.1.104:1880
+
+Node-RED Dashboard aufrufen:
+http://192.168.1.104:1880/ui
+
+
+==================================================================
+Linux-Befehle
+
+Zeige Arbeitsverzeichnis:
+pifranky~ $ pwd
+
+Arbeitsverzeichnis auflisten:
+pifranky~ $ ls
+
+Neuen Ordner erstellen:
+pifranky~ $ mkdir NewFolder
+pifranky~ $ ls
+
+Ordner-Verzeichnis nach oben:
+pifranky~/NewFolder $ cd .. 
+pifranky~ $ ls 
+
+Neue Datei erstellen:
+pifranky~/NewFolder $ touch NewFile.txt
+pifranky~/NewFolder $ ls
+
+Datei kopieren mit neuem Namen:
+pifranky~/NewFolder $ cp NewFile.txt OtherFile.txt
+pifranky~/NewFolder $ ls
+
+Datei loeschen:
+pifranky~/NewFolder $ rm NewFile.txt
+pifranky~/NewFolder $ ls
+
+Datei verschieben:
+pifranky~/NewFolder $ mv OtherFile.txt /home/pi
+pifranky~/NewFolder $ cd ..
+pifranky~/NewFolder $ ls
+
+NANO-Editor starten:
+pifranky~ $ cd
+pifranky~ $ nano OtherFile.txt
+
+Mit Strg+G das HilfemenÃ¼ aufzurufen und mit den Pfeiltasten nach unten zu scrollen.
+Mit Strg+X NANO beenden und Y fÃ¼r speichern (oder N fÃ¼r verwerfen)
+
+Paketversionen aktualisieren:
+pifranky~ $ sudo apt-get update
+
+Software installieren:
+pifranky~ $ sudo apt-get install <SOFTWARE_NAME>
+
+Software (Python) starten:
+pifranky~ $ python
+
+Software loeschen:
+pifranky~ $ sudo apt-get remove <SOFTWARE_NAME>
+
+Konfigurationstool Ã¶ffnen:
+pifranky~ $ sudo raspi-config
+
+Raspberry Pi herunterfahren:
+pifranky~ $ sudo poweroff
+
+Raspberry Pi Neustart:
+pifranky~ $ sudo reboot
+
+==================================================================
+
+WS2812B RGB LED Strip installieren
+
+pi@raspberry:~ $ curl -sS get.pimoroni.com/unicornhat | bash
+
+pi@raspberry:~ $ node-red-stop
+pi@raspberry:~ $ cd ~/.node-red
+pi@raspberry:~/.node-red $ npm install node-red-node-pi-neopixel
+
+pi@raspberry:~ $ node-red-start
+
+==================================================================
+
+CodeLite installieren (Raspberry Pi C++ Entwicklungsumgebung)
+sudo apt-get install codelite
+
+C++ Compiler nachinstallieren:
+sudo apt-get install build-essential
+
+==================================================================
+```
+
+
 ## Flow 1
 ```json
 [
