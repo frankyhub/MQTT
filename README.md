@@ -1,5 +1,16 @@
 <a name="oben"></a>
 
+<div align="center">
+
+|[:skull:ISSUE](https://github.com/frankyhub/MQTT/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/MQTT/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/MQTT/wiki)||
+|--|--|--|--|
+| | | | |
+|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2062-blue)|<a href="https://github.com/frankyhub/MQTT/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/MQTT)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/MQTT)|<a href="https://github.com/frankyhub/MQTT/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/MQTT)|<a href="https://github.com/frankyhub/MQTT/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/MQTT)|
+|![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/MQTT)| <a href="https://github.com/frankyhub/MQTT/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/MQTT/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
+</div>
+
+
+
 # MQTT
 Message Queuing Telemetry Transport
 
@@ -693,6 +704,10 @@ Erweiterung von Node-RED um die Funktion "LED-STRIPE"
 
 
 
+---
+
 <div style="position:absolute; left:2cm; ">   
 <ol class="breadcrumb" style="border-top: 2px solid black;border-bottom:2px solid black; height: 45px; width: 900px;"> <p align="center"><a href="#oben">nach oben</a></p></ol>
-</div>
+</div>  
+
+---
