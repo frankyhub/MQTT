@@ -5,9 +5,11 @@
 |[:skull:ISSUE](https://github.com/frankyhub/MQTT/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/MQTT/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/MQTT/wiki)||
 |--|--|--|--|
 | | | | |
-|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2062-blue)|<a href="https://github.com/frankyhub/MQTT/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/MQTT)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/MQTT)|<a href="https://github.com/frankyhub/MQTT/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/MQTT)|<a href="https://github.com/frankyhub/MQTT/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/MQTT)|
-|![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/MQTT)| <a href="https://github.com/frankyhub/MQTT/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/MQTT/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
+<a href="https://github.com/frankyhub/MQTT/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/MQTT)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/MQTT)|<a href="https://github.com/frankyhub/MQTT/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/MQTT)|<a href="https://github.com/frankyhub/MQTT/6eleases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/MQTT)|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2062-blue)|
+|![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/MQTT)| <a href="https://github.com/frankyhub/MQTT/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/MQTT/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)||
+
 </div>
+
 
 
 
@@ -18,7 +20,9 @@ Message Queuing Telemetry Transport
 
 Das ist ein Repo mit einem Raspberry PI und zwei Wemos D1 Mini für die Anzeige von zwei Dashboards mit MQTT. Auf dem Raspi ist Node-RED und der MQTT Broker Mosquitto installiert. Der erste Wemos D1 Mini ist mit einem BME280 verbunden und zeigt die Temperatur, die Luftfeuchte und den Luftdruck an. Für das zweite Dashboard ist am zweiten Wemos D1 Mini ist ein LDR, ein Bewegungsmelder, eine LED, ein Relais und ein Dallas Temperatursensor installiert. Beide Dashboards werden mit der Node-RED IP-Adresse aufgerufen.
 
-![Bild](pic/ESP1.png)
+
+<img src="pic/ESP1.png" width="500"> 
+<br> <br>
 
 
 ## Hardware
@@ -82,7 +86,9 @@ Wemos D1 Mini 2
 + LED -> D6
 
 
-![Bild](pic/wemos2.jpg)
+<img src="pic/wemos2.jpg" width="500"> 
+<br> <br>
+
 
 ## Linux-Befehle
 
@@ -658,49 +664,61 @@ sudo apt-get install build-essential
 
 Dashboard 1 (Node-RED IP-Adresse/ui)
 
-![Bild](pic/Dashboard1.png)
+<img src="pic/Dashboard1.png" width="500"> 
+<br> <br>
 
 Serieller Monitor 1
 
-![Bild](pic/Seriell1.png)
+<img src="pic/Seriell1.png" width="500"> 
+<br> <br>
 
 Node-RED Flow 1
 
-![Bild](pic/node-red1.png)
+<img src="pic/node-red1.png" width="500"> 
+<br> <br>
 
 Dashboard 2
 
-![Bild](pic/Dashboard2.png)
+<img src="pic/Dashboard2.png" width="500"> 
+<br> <br>
 
 Serieller Monitor 2
 
-![Bild](pic/Seriell2.png)
+<img src="pic/Seriell2.png" width="500"> 
+<br> <br>
 
 Node-RED Flow 2
 
-![Bild](pic/node-red2.png)
+<img src="pic/node-red2.png" width="500"> 
+<br> <br>
 
 Einfache Erweiterung von Node-RED um die Funktion "Licht"
 
-![Bild](pic/node-red3.png)
+<img src="pic/node-red3.png" width="500"> 
+<br> <br>
 
 Erweiterung der Funktion "Licht" im Dashboard 2
 
-![Bild](pic/Dashboard4.png)
+<img src="pic/Dashboard4.png" width="500"> 
+<br> <br>
 
 Erweiterung von Node-RED um die Funktion "ESP1" (Switch D5 mit Debug-Funktion)
 
-![Bild](pic/node-red4.png)
+<img src="pic/node-red4.png" width="500"> 
+<br> <br>
 
 Schalten und dimmen mit dem "ESP1" Dashboard
 
-![Bild](pic/ESP1.png)
+<img src="pic/ESP1.png" width="500"> 
+<br> <br>
 
 Erweiterung von Node-RED um die Funktion "LED-STRIPE"
 
-![Bild](pic/led-stripe.png)
+<img src="pic/led-stripe.png" width="500"> 
+<br> <br>
 
-![Bild](pic/ledstripe.png)
+<img src="pic/ledstripe.png" width="500"> 
+<br> <br>
 
 
 
