@@ -8,21 +8,17 @@
 <a href="https://github.com/frankyhub/MQTT/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/MQTT)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/MQTT)|<a href="https://github.com/frankyhub/MQTT/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/MQTT)|<a href="https://github.com/frankyhub/MQTT/6eleases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/MQTT)|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2062-blue)|
 |![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/MQTT)| <a href="https://github.com/frankyhub/MQTT/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/MQTT/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)||
 
-</div>
-
-
-
-
-# MQTT
-Message Queuing Telemetry Transport
-
-## Story
-
-Das ist ein Repo mit einem Raspberry PI und zwei Wemos D1 Mini für die Anzeige von zwei Dashboards mit MQTT. Auf dem Raspi ist Node-RED und der MQTT Broker Mosquitto installiert. Der erste Wemos D1 Mini ist mit einem BME280 verbunden und zeigt die Temperatur, die Luftfeuchte und den Luftdruck an. Für das zweite Dashboard ist am zweiten Wemos D1 Mini ist ein LDR, ein Bewegungsmelder, eine LED, ein Relais und ein Dallas Temperatursensor installiert. Beide Dashboards werden mit der Node-RED IP-Adresse aufgerufen.
-
 
 <img src="pic/ESP1.png" width="500"> 
 <br> <br>
+
+
+</div>
+
+## Story
+
+Das ist ein Repo mit einem Raspberry PI und zwei Wemos D1 Mini für die Anzeige von zwei Dashboards mit MQTT. Auf dem Raspi ist Node-RED und der MQTT Broker Mosquitto installiert (MQTT Message Queuing Telemetry Transport). Der erste Wemos D1 Mini ist mit einem BME280 verbunden und zeigt die Temperatur, die Luftfeuchte und den Luftdruck an. Für das zweite Dashboard ist am zweiten Wemos D1 Mini ist ein LDR, ein Bewegungsmelder, eine LED, ein Relais und ein Dallas Temperatursensor installiert. Beide Dashboards werden mit der Node-RED IP-Adresse aufgerufen.
+
 
 
 ## Hardware
